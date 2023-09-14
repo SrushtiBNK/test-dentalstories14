@@ -1,0 +1,16 @@
+RewriteEngine on
+
+
+# RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.php.*$"
+RewriteCond %{THE_REQUEST} "^[^ ]* .*?\.html.*$"
+RewriteRule .* - [L,R=404]
+
+
+RewriteRule ^home?$ index.html
+RewriteRule ^about?$ about-us.html
+RewriteRule ^services?$ service.html
+RewriteRule ^faqs?$ faq.html
+RewriteRule ^contact?$ contact-us.html
+RewriteRule ^book-appointment?$ book-appointment.html
+RewriteRule ^contactform?$ contactform.html
+
