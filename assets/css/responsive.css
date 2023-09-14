@@ -85,7 +85,7 @@
     }
 
     iframe {
-        width: 100%;
+        width: 122%;
     }
     form .form-row .input-data {
         width: 95%;
@@ -128,6 +128,7 @@
     h2.ab-th1 {
         font-size: 30px;
         font-weight: 600;
+        line-height: 37px;
     }
     .col-lg-6.maincol2.ab1 {
         padding-top: 48px;
@@ -179,13 +180,22 @@
     .container.ds-cd-sec {
         display: flex;
         flex-direction: column;
-        padding: 0px 29px;
+        padding: 0px;
+    }
+    .gallery-image {
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .main-contact-sec {
-        padding: 40% 0% 10% 0%;
+        padding: 0% 0% 10% 0%;
     }
     .ab-2s {
-        padding: 160% 0 10% 0;
+        padding: 165% 0 10% 0;
+    }
+    a.email-a {
+        font-size: 15px;
     }
     col-lg-6.ab-col {
         padding-right: 20px;
@@ -223,7 +233,7 @@
         width: 100%;
     }
     .mcs-1 {
-        padding: 35px;
+        padding: 35px 3px;
     }
     h2.mc-cu-h2 {
         font-size: 33px;
@@ -238,6 +248,7 @@
     }
     img.ab-img {
         margin-bottom: 25px;
+        width: 100%;
     }
     .ab-col {
         padding: 22px;
@@ -265,8 +276,15 @@
         padding: 27px;
     }
     section.gallery-sec {
-        padding: 931% 0%;
+        padding: 967% 0% 0% 0%;
     }
+    .contact-main-wrapper {
+        background-image: url(../images/dental-stories-about-page-mobile-1.jpg) !important;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
 }
 
 
@@ -280,6 +298,23 @@
         width: 100%;
         min-height: 633px;
         background-position: 50% 105%;
+    }
+    section.gallery-sec {
+        padding: 858% 0% 0% 0%;
+    }
+    img.image-section-au {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
+    h4.qb-au1 {
+        font-size: 19px;
+    }
+    .ds-home-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 

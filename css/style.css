@@ -447,7 +447,7 @@ button[type=submit] {
 }
 
 .mobile-menu-wrapper {
-  background-color: #ebf5f5;
+  background-color: #ffffff;
   padding: 0px;
 }
 
@@ -1014,8 +1014,8 @@ header css
 Banner section css
 =================*/
 .banner-section-wrapper {
-  background-image: url(../assets/images/denstist-1.jpg);
-  background-position: center;
+  background-image: url(../assets/images/dental-stories-home-page-banner-2.jpg);
+  background-position: 39% 92%;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 160px 0px;
@@ -1605,7 +1605,7 @@ i.fas.fa-angle-double-up {
 .contact-main-wrapper {
   float: left;
   width: 100%;
-  background-image: url(../assets/images/dentist-3-.jpg);
+  background-image: url(../assets/images/dental-stories-about-page-banner-1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1651,11 +1651,11 @@ i#fc-list {
 }
 
 .main-col1.ab2 {
-  width: 41%;
-  min-height: 633px;
+  width: 40%;
+  min-height: 100px;
   flex: 0 0 auto;
-  background-image: url('../assets/images/pexels-anna-shvets-3845736.jpg');
-  background-position: 50% 132%;
+  background-image: url('../assets/images/dental-stories-about-page-banner-2.jpg');
+  background-position: 53% 134%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1693,6 +1693,7 @@ h4.qb-au1 {
   background-color: #fff6ee;
   padding: 45px 0;
   margin-bottom: 65px;
+  margin-top: 27px;
 }
 
 h2.ab-4s-1 {
@@ -2096,7 +2097,7 @@ p.ds-a {
 .gallery-image {
 padding: 20px;
 display: flex;
-flex-wrap: wrap;
+/* flex-wrap: wrap; */
 justify-content: center;
 }
 
@@ -2162,7 +2163,7 @@ font-size: 0.8em;
 opacity: 0.5;
 }
 img.ds-m-logo.banner-logo {
-  width: 300px;
+  width: 250px;
   z-index: 2;
 }
 .ds-home-banner {
