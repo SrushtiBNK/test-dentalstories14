@@ -132,7 +132,8 @@
     }
     .col-lg-6.maincol2.ab1 {
         padding-top: 48px;
-        padding-left: 16px;
+        /* padding-left: 16px; */
+        padding: 16px 0px 42px 16px;
     }
     h2.ab-4s-1 {
         font-size: 26px;
@@ -238,7 +239,7 @@
     h2.mc-cu-h2 {
         font-size: 33px;
         line-height: 47px;  
-        letter-spacing: 3px;
+        letter-spacing: 2px;
     }
     .col-lg-6.af-2 {
         padding: 20% 1% 4%;
@@ -284,6 +285,10 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+    .image-about-wrapper .about-content h4 {
+        line-height: 40px;
+        font-size: 29px;
+    }
 
 }
 
@@ -319,6 +324,10 @@
     .mcs-details {
         width: 100%;
     }
+    .row.mainrow1 {
+        display: flex;
+        flex-direction: column-reverse;
+      }
 }
 
 

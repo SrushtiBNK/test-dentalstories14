@@ -1116,11 +1116,16 @@ nav.navbar.navbar-expand-lg.main-nav {
 
 .image-about-wrapper .about-content h4 {
   line-height: 40px;
-  font-size: 30px;
+  font-size: 36px;
   font-family: 'Sarala', sans-serif;
   font-weight: 600;
   /* color: #e12454; */
-  letter-spacing: 2.4px;
+  letter-spacing: 0px;
+}
+a.cta-a {
+  color: #fff;
+  padding-left: 14px;
+  font-size: 30px;
 }
 
 .image-about-wrapper.float_left {
@@ -1615,12 +1620,15 @@ i.fas.fa-angle-double-up {
 h4.ab-cont-h4 {
   font-family: 'Sarala', sans-serif;
   color: #000;
-  font-size: 42px;
+  font-size: 36px;
   line-height: 64px;
   font-weight: 400;
   letter-spacing: -0.01em;
 }
 
+.ab-3s {
+  margin: 50% 0% 0% 0%;
+}
 p.ab-rel-p {
   font-size: 20px;
   line-height: 27px;
@@ -1634,7 +1642,7 @@ p.main-ab4-p {
   /* font-weight: 500; */
   letter-spacing: 0em;
   font-family: 'Sarala', sans-serif;
-  font-size: 45px;
+  font-size: 36px;
   line-height: 64px;
 }
 .ab-2s {
@@ -1664,10 +1672,10 @@ i#fc-list {
 }
 
 h2.ab-th1 {
-  font-size: 42px;
+  font-size: 36px;
   margin-bottom: 28px;
   font-family: 'Sarala', sans-serif;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 p.ab-th2 {
@@ -1698,8 +1706,8 @@ h4.qb-au1 {
 
 h2.ab-4s-1 {
   color: #000;
-  font-size: 39px;
-  line-height: 50px;
+  font-size: 32px;
+  line-height: 32px;
   font-weight: 600;
   letter-spacing: -0.01em;
   margin-bottom: 20px;
@@ -1724,7 +1732,7 @@ h2.main-ab4-h2 {
   margin-top: 0px;
   margin-bottom: 8px;
   color: #000;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 31px;
   font-weight: 600;
   font-family: 'Merriweather', serif;
@@ -1913,9 +1921,12 @@ h3.details-h3 {
 /* FAQ's css  */
 
 h1.faq-acc-h1 {
+  font-size: 36px;
+  margin-bottom: 28px;
+  font-weight: bold;
   margin-bottom: 5rem;
   margin-top: 5rem;
-  font-family: 'Merriweather', serif;
+  font-family: 'Sarala', sans-serif;
 }
 .accordion-wrapper {
   border-radius: 8px;
@@ -1956,7 +1967,7 @@ h1.faq-accordion-h1{
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   position: absolute;
-  left: 97%;
+  left: 110%;
 }
 .faq-input:checked ~ h1 .faq-l::before{
   content: "\276F";
@@ -2007,14 +2018,13 @@ div.p p {
 }
 
 h2.sh-cont-h2 {
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal;
-  font-size: 35px;
+  font-size: 36px;
   letter-spacing: .04em;
-  font-family: 'Merriweather', serif;
+  font-family: 'Sarala', sans-serif;
   line-height: 1em;
   text-transform: none;
-  color: #525252;
 }
 
 p.sh-cont-p {
@@ -2031,6 +2041,9 @@ p.sh-cont-p {
 
 h3.ss-c-h3 {
   margin-bottom: 12px;
+  font-size: 36px;
+  font-weight: bold;
+  font-style: normal;
 }
 
 p.ss-c--p {
@@ -2048,7 +2061,10 @@ img.serives-1 {
   height: 10%;
 }
 .main-contact-sec {
-  padding: 5% 10% 10% 10%;
+  padding: 5% 10% 5% 10%;
+}
+.mcs-details {
+  width: 100%;
 }
 /* SERVICE PAGE CSS  */
 .ss-c-1 {
@@ -2091,7 +2107,7 @@ p.ds-a {
   font-weight: 600;
 } */
 .gallery-sec {
-  padding: 176% 0% 0% 0%;
+  padding: 173% 0% 0% 0%;
 }
 
 .gallery-image {
