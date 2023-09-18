@@ -289,6 +289,10 @@
         line-height: 40px;
         font-size: 29px;
     }
+    .faq-l::before{
+        content: "\276F";
+        left: 110%;
+      }
 
 }
 
