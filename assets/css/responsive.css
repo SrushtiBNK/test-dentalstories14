@@ -99,7 +99,7 @@
 
     /* about us page css  */
     h4.sb-sub-h4.wow.fadeIn {
-        font-size: 20px !important;
+        font-size: 27px !important;
         line-height: 39px;
     }
     h2.sb-sub-h2.wow.fadeIn {
@@ -126,7 +126,7 @@
         width: 100%;
     }
     h2.ab-th1 {
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 600;
         line-height: 37px;
     }
@@ -136,7 +136,7 @@
         padding: 16px 0px 42px 16px;
     }
     h2.ab-4s-1 {
-        font-size: 26px;
+        font-size: 24px;
         line-height: 33px;
         margin-bottom: 12px;
     }
@@ -202,7 +202,10 @@
         padding-right: 20px;
     }
     h2.main-ab4-h2 {
-        font-size: 22px;
+        font-size: 20px;
+    }
+    .box {
+        padding: 35px;
     }
     h2.sh-cont-h2 {
         font-size: 30px;
@@ -255,7 +258,7 @@
         padding: 22px;
     }
     .ab-4s-1 span {
-        font-size: 33px;
+        font-size: 24px;
         line-height: 47px;
     }
 	.footer-main-wrapper section .last-para {
@@ -276,8 +279,8 @@
         width: 346px;
         padding: 27px;
     }
-    section.gallery-sec {
-        padding: 967% 0% 0% 0%;
+    .gallery-sec {
+        padding: 0%;
     }
     .contact-main-wrapper {
         background-image: url(../images/dental-stories-about-page-mobile-1.jpg) !important;
@@ -331,10 +334,66 @@
     .row.mainrow1 {
         display: flex;
         flex-direction: column-reverse;
-      }
+    }
+    .emergency2-main-wrapper {
+        margin-bottom: 39px;
+    }
 }
 
 
 
 /* RESPONSIVE MEDIUM  FIXES */
-@media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {}
+@media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
+    #sidebar .sidebar_logo {
+        width: 94%;
+    }
+    .image-about-wrapper .about-content {
+        padding: 30px;
+    }
+    .slider-service-section .owl-carousel .owl-nav button.owl-prev {
+        left: -39px;
+        position: absolute;
+    }
+    .slider-service-section .owl-carousel .owl-nav button.owl-next {
+        right: -39px;
+        position: absolute;
+    }
+    .col-lg-6.maincol2.ab1 {
+        padding: 55px 10px 55px 10px;
+    }    
+    img.ab-img {
+        width: 98%;
+    }
+    .ab-col {
+        padding: 10px 20px;
+    }
+    .service-heading-sec {
+        padding: 100px 30px 0px 30px;
+    }
+    .service-main-container {
+        padding: 0px 5%;
+    }
+    .ss-c-1 {
+        display: flex;
+        margin: 9% 0px;
+        flex-direction: column;
+    }
+    img.serives-1 {
+        width: 40%;
+        height: 10%;
+        display: block;
+        margin: 0 auto;
+    }
+    ol.alternating-colors {
+        padding-left: 18px;
+    }
+    .cus-p {
+        padding: 23% 10% 10% 10% !important;
+    }
+    .mcs-loc-pin {
+        margin-top: 22%;
+    }
+    img.ds-m-logo {
+        width: 100px;
+    }
+}
