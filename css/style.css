@@ -2186,3 +2186,19 @@ img.ds-m-logo.banner-logo {
   display: flex;
   flex-direction: column;
 }
+
+/* privacy policy page  */
+.row.mainrow1 {
+  padding-top: 55px;
+}
+h5.pp-h5 {
+  font-size: 22px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 600;
+}
+.maincol2.ab1 {
+  padding: 10px 0px;
+}
+.row.mainrow2 {
+  padding: 25px 32px;
+}
