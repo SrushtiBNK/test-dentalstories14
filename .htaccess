@@ -12,5 +12,6 @@ RewriteRule ^services?$ service.html
 RewriteRule ^faqs?$ faq.html
 RewriteRule ^contact?$ contact-us.html
 RewriteRule ^book-appointment?$ book-appointment.html
+RewriteRule ^privacy-policy?$ privacy-policy.html
 RewriteRule ^contactform?$ contactform.html
 

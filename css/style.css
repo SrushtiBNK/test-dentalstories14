@@ -197,6 +197,17 @@ button.button-btn, button.button-btn {
   border: none;
   text-transform: uppercase;
 }
+button[type=submit] {
+  height: 54px;
+  border: none;
+  background-color: #E75480;
+  color: #fff;
+  padding: 0 60px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 25px 0 0;
+}
 
 button.button-btn:before, button.button-btn:before {
   content: "";
@@ -318,17 +329,6 @@ button.close {
   opacity: .5;
 }
 
-button[type=submit] {
-  height: 54px;
-  border: none;
-  background: #9f8054;
-  color: #fff;
-  padding: 0 30px;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin: 25px 0 0;
-}
 
 .contact .contact-form #contact .form-group input:focus + span {
   font-size: 13px;
@@ -2064,7 +2064,7 @@ img.serives-1 {
   padding: 5% 10% 5% 10%;
 }
 .mcs-details {
-  width: 100%;
+  width: 55%;
 }
 /* SERVICE PAGE CSS  */
 .ss-c-1 {

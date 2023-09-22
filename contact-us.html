@@ -7,6 +7,11 @@
    <title>Dental Stories</title>
    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
    <!-- style -->
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+   <script src="js/jquery-3.6.0.min.js"></script>
+
+
    <link rel="stylesheet" type="text/css" href="css/animate.css" />
    <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
@@ -183,22 +188,22 @@
                         <h2 class="mc-cu-h2 pb-4">START YOUR STORY WITH A SMILE</h2>
                         <p class="mc-cu-p ds-a">Feel free to get in touch with us. We would love to help you with all your dental concerns.</p>
                         <!-- <h3 class="mc-cu-h3 ds-a pt-3">MAKE AN APPOINTMENT</h3> -->
-                        <form action="#" class="si-cu-form">
+                        <form target="dummyframe" onsubmit="sweet()" enctype="multipart/form-data" id="form1" class="si-cu-form" method="POST">
                            <div class="mb-3 form-row">
                               <div class="input-data">
-                                 <input type="text" required>
+                                 <input type="text" id="firstname" class="input" name="firstname"  required>
                                  <div class="underline"></div>
                                  <label for="">First Name</label>
                               </div>
                               <div class="input-data">
-                                 <input type="text" required>
+                                 <input type="text" id="lastname" class="input" name="lastname" required>
                                  <div class="underline"></div>
                                  <label for="">Last Name</label>
                               </div>
                            </div>
                            <div class="mb-3 form-row">
                               <div class="input-data">
-                                 <input type="text" required>
+                                 <input type="text" class="input" name="email"  autocomplete="off" pattern=".+@gmail.com" required>
                                  <div class="underline"></div>
                                  <label for="">Email Address</label>
                               </div>
@@ -210,18 +215,19 @@
                            </div>
                            <div class="mb-3 form-row">
                            <div class="input-data textarea">
-                              <textarea rows="8" cols="80" required></textarea>
+                              <textarea rows="8" cols="80"id="message" class="input" name="message"  required></textarea>
                               <br />
                               <div class="underline"></div>
                               <label for="">Write your message</label>
                               <br />
                               <a href="#">
-                                 <button class="button-btn mt-0">book now
+                                 <button value="submit" type="submit" class="button-btn mt-0">book now
                                     <span><i class="fas fa-angle-double-right"></i></span>
                                  </button>
                               </a>
                         </form>
                      </div>
+                     <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
                   </div>
                </div>
             </div>
@@ -345,7 +351,7 @@
    <!-- footer section end -->
 
    <!-- Side Panel -->
-   <script src="js/jquery-3.6.0.min.js"></script>
+   
    <script src="js/bootstrap.min.js"></script>
    <script src="js/wow.js"></script>
    <script src="js/jquery.magnific-popup.js"></script>
@@ -353,36 +359,39 @@
    <script src="js/contact_form.js"></script>
    <script src="js/custom.js"></script>
    <!-- custom js-->
-   <script>
-      wow = new WOW(
-         {
-            animateClass: 'animated',
-            offset: 100,
-            callback: function (box) {
-               console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-            }
-         }
-      );
-      wow.init();
-   </script>
-   <script>
-   function actionToggleOne() {
-   let action = document.querySelector('.contact-action');
-   action.classList.toggle('open1');
-   }
-   function actionToggleTwo() {
-      let action = document.querySelector('.action-1');
-      action.classList.toggle('open2');
-   }
-   function actionToggleThree() {
-      let action = document.querySelector('.action-2');
-      action.classList.toggle('open3');
-   }
-   function actionToggleFour() {
-      let action = document.querySelector('.action-3');
-      action.classList.toggle('open4');
-   }
-   </script>
+        <!-- contact us section ends here -->
+        <script type="text/javascript">
+
+               document.addEventListener("DOMContentLoaded", function () {
+               var myForm = document.getElementById('form1');
+
+                  myForm.addEventListener('submit', function (event) {
+                     event.preventDefault(); // Prevent the default form submission behavior
+
+                  var formData = new FormData(myForm);
+
+                     $.ajax({
+                           type: "POST",
+                           url: "https://hook.eu2.make.com/4e2uaedts5dkbqaaoh6io39wj47w5kup/?",
+                           data: formData,
+                           processData: false,
+                           contentType: false,
+                           success: function (response) {
+                              // responseMessage.innerHTML = "Form submitted successfully: " + response;
+                              document.getElementById('form1').reset();
+                           },
+                           error: function (error) {
+                              responseMessage.innerHTML = "Error: " + error;
+                           },
+                        });
+                  });
+               });
+
+      function sweet(){
+         swal("YAY!","Form was submitted successfully","success");
+      }
+
+      </script>
 </body>
 
 </html>
