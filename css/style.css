@@ -109,6 +109,9 @@ p {
 .ds-a {
   font-family: 'Sarala', sans-serif;
 }
+.cmw-a {
+  font-family: 'Merriweather', serif;
+}
 
 input,
 select,
@@ -1087,6 +1090,16 @@ ABOUT CSS
   font-weight: bolder;
 }
 
+.asdrp-1 {
+  margin: 48% 0% 0% 0%;
+}
+
+p.asdrp-p.mb-0 {
+  /* font-size: 15px; */
+  font-family: 'Sarala', sans-serif;
+  padding-right: 33px;
+}
+
 .about-main-wrapper .sb-about-section .icon svg {
   width: 40px;
   margin-right: 10px;
@@ -1674,7 +1687,7 @@ h2.ab-th1 {
   font-size: 36px;
   margin-bottom: 28px;
   font-family: 'Merriweather', serif;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 p.ab-th2 {
@@ -1733,7 +1746,7 @@ h2.main-ab4-h2 {
   color: #000;
   font-size: 24px;
   line-height: 31px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: 'Merriweather', serif;
 }
 
@@ -2041,7 +2054,7 @@ p.sh-cont-p {
 h3.ss-c-h3 {
   margin-bottom: 12px;
   font-size: 36px;
-  font-weight: bold;
+  font-weight: 500;
   font-style: normal;
   font-family: 'Merriweather', serif;
 }
@@ -2084,10 +2097,11 @@ img.serives-1 {
   padding-top: 50px;
 }
 img.ab-img {
-  width: 73%;
+  width: 80%;
   display: block;
   margin: 0 auto;
 }
+
 
 /* gallery  */
 
